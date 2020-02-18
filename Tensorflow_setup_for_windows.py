@@ -1,12 +1,8 @@
-# Open Anaconda command Prompt and type the following commands in sequence.
-step 1 : conda create --name tensorflow python=3.6 # for python 3.6 version
-step 2 :activate tensorflow
-step 3: pip install tensorflow
-step 4: pip install tensorflow-gpu
-# check for tensorflow
->> activate tensorflow
->> python (activating python shell)
->> import tensorflow as tf
->> hello = tf.constant(‘Hello, Tensorflow!’)
->> sess = tf.Session()
->> print(sess.run(hello))
+step 1: From serach bar search for anaconda prompt and Run it as administrator
+step 2: In anaconda Prompt type this command: conda install tensorflow
+step 3: Go to python shell after installation
+>>> import tensorflow as tf
+>>> x=tf.Variable(0.5)
+>>> print(x)
+<tf.Variable 'Variable:0' shape=() dtype=float32, numpy=0.5>
+
