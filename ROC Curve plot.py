@@ -1,3 +1,4 @@
+from sklearn.metrics import roc_curve, auc
 def plot_roc(pred,y):
     fpr, tpr, _ = roc_curve(y, pred)
     roc_auc = auc(fpr, tpr)
